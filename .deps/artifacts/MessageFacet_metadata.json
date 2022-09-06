@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/MessageFacet.sol": "MessageFacet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/MessageFacet.sol": {
+			"keccak256": "0xf323ffc2048e804a9b60644a3c5b328645a5da57fd41e1f07cb6f9d6b64f9061",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93f843b6d93127652e39e04326f0e020ceb0da84ca0ef1e500b2e535651160b5",
+				"dweb:/ipfs/QmW5rEWjH968E4PY6a4vCjWmMuo6DuwDEaTR1FVkUk7S5R"
+			]
+		}
+	},
+	"version": 1
+}
